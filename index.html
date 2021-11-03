@@ -41,24 +41,38 @@
 
       <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
-                <form class="form form-dark bg-dark">
-                    <p>Filter Search</p>
-                </form>
+          <div class="col-md-3">
+            <form class="form form-dark bg-dark">
+              <p>Filter Search</p>
+            </form>
+            <ul class="ul ul-dark bg-dark list_group">
+            </ul>
+              <li class="li li-dark bg-dark list-group-item">
+                <label for="date">Enter Date</label>
+                <input type="text" placeholder="1/10/2010" id="datetime" />
+              </li>
                 
-                  <ul class="ul ul-dark bg-dark list_group">
-                </ul>
-                
-                
-                  <li class="li li-dark bg-dark list-group-item">
-                    <label for="date">Enter Date</label>
-                    <input type="text" placeholder="1/10/2010" id="datetime" />
-                </li>
+              <li class="li li-dark bg-dark list-group-item">
+                <label for="city">Enter City</label><br>
+                <input type="text" placeholder="roswell" id="city" />
+              </li>
               
-                <li class="li li-dark bg-dark list-group-item">
-                    <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-                </li>
-            </div>
+              <li class="li li-dark bg-dark list-group-item">
+                <label for="state">Enter State</label><br>
+                <input type="text" placeholder="ca" id="state" />
+              </li>
+
+              <li class="li li-dark bg-dark list-group-item">
+                <label for="country">Enter Country</label><br>
+                <input type="text" placeholder="us" id="country" />
+              </li>
+
+              <li class="li li-dark bg-dark list-group-item">
+                <label for="shape">Enter Shape</label><br>
+                <input type="text" placeholder="circle" id="shape" />
+              </li>
+          </div>
+
             <div class="col-md-9">
                 <table class="table table-striped">
                     <thead>
